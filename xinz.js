@@ -1,5 +1,5 @@
 /*
-BY AQULZZ
+BY NecttBot
 */
 const
 	{
