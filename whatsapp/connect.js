@@ -1,5 +1,5 @@
 /*
-HAI NAMAKU AQULZZ
+HAI NAMAKU NECTT
 YAH DISINI AKU SEBAGAI PEMULA MAU MENCOBA MEMBUAT BOT KU SENDIRI
 YANG PASTINYA BANYAK COPY PASTE
 OKE TERIMA KASIH
@@ -24,7 +24,7 @@ exports.connect = async() => {
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-	console.log(color('[ CREATED BY AQULZZ ]'))
+	console.log(color('[ CREATED BY NECTT ]'))
 	xinz.on('qr', qr => {
         qrcode.generate(qr, { small: true })
         console.log(color('[XINZ]', 'yellow'), color('Scan Qr'))
@@ -46,7 +46,7 @@ exports.connect = async() => {
     fs.writeFileSync(authofile, JSON.stringify(xinz.base64EncodedAuthInfo(), null, '\t'))
     console.log(color(' ===================================================='))
 	console.log(color('│ + Github : https://github.com/zennn08/BaseSelfBot  │'))
-	console.log(color('│ + Donate : https://trakteer.id/aqulzz        		│'))
+	console.log(color('│ + Donate : 088290013973 DANA/GOPAY/PULSA      		│'))
 	console.log(color(' ===================================================='))
 	return xinz
 }
